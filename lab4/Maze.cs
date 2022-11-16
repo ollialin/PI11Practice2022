@@ -72,7 +72,6 @@ class Maze
     public void Move(int dx, int dy)
     {
         ClearMessage();
-        DecreaseSanity(decrement);
 
         if (playerX == specialPoints["exit"][0] && playerY == specialPoints["exit"][1])
         {
@@ -84,6 +83,7 @@ class Maze
             int ny = playerY + dy;
             if (maze[ny, nx] % 2 == 0)
             {
+                DecreaseSanity(decrement);
                 playerX = nx;
                 playerY = ny;
 
