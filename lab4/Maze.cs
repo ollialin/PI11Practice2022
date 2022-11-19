@@ -157,7 +157,7 @@ class Maze
                             Print(shiftX + x, shiftY + y, "o", ink: ConsoleColor.Red);
                             break;
                         case 3: //exit
-                            Print(shiftX + x, shiftY + y, "-", ink, paper);
+                            Print(shiftX + x, shiftY + y, "#", ink);
                             break;
                         case 4: //key
                             Print(shiftX + x, shiftY + y, "q", ink: ConsoleColor.Gray);
