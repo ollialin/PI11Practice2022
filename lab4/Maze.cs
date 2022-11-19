@@ -2,9 +2,12 @@ class Maze
 {
     // 0 - free space
     // 1 - wall
-    // 2 - key
+    // 2 - apple
     // 3 - door
-    // 4 - coin
+    // 4 - key
+    // 6 - torch
+    // 8 - portal-1
+    // 10 - portal-2
 
     //данные
     int playerX = 1;
