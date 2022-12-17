@@ -5,5 +5,6 @@
         //ракета
         var rocket = new Rocket();
         rocket.Play();
+        Console.ReadKey();
     }
 }

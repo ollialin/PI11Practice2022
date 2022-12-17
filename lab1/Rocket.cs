@@ -35,7 +35,7 @@ class Rocket
         speed = 0;
         acceleration = -MOON_GRAVITY;
         height =
-            // rnd.NextDouble() * (25000 - 8000) +
+            rnd.NextDouble() * (25000 - 8000) +
             8000;
         impactTime = Math.Sqrt(2 * height / MOON_GRAVITY);
         // it = (v - sqrt(v*v + 2 * mg * ih)) / -mg => v = 0, it = -sqrt( 2 * mg * ih) / -mg => it = sqrt(2 * ih / mg)
@@ -94,7 +94,7 @@ class Rocket
             var s = (Console.ReadLine() + "").ToLower();
             switch (s)
             {
-                case "переключить":
+                case "toggle":
                 case "/":
                     em = 1 - em;
                     Console.WriteLine($"Текущий режим: {((em < 1) ? "off" : "on")}");
