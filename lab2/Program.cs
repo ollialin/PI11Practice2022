@@ -89,7 +89,7 @@ internal class Program
                                 break;
                         }
                         Console.WriteLine($"{puzzle[0]} {puzzle[1]} {puzzle[2]} {puzzle[3]}");
-                        Console.WriteLine("Вы справились с зелёной задачей!");
+                        Console.WriteLine("Вы справились с красной задачей!");
                         Console.ReadKey(true);
                     }
                 }
@@ -140,7 +140,7 @@ internal class Program
                             if (greenSolved)
                                 break;
                         }
-                        Console.WriteLine("Вы справились с белой задачей");
+                        Console.WriteLine("Вы справились с зелёной задачей");
                         Console.ReadKey(true);
                     }
                 }
