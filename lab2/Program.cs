@@ -219,11 +219,8 @@ internal class Program
                         }
 
                         str = str.Replace("\r", "");
-                        Console.WriteLine("");
-                        Console.WriteLine(str);
-                        Console.WriteLine(str == "Red");
 
-                        if (str == "Red")
+                        if (str == "I can write")
                         {
                             Console.WriteLine();
                             Console.WriteLine("Было просто, не так ли?");
